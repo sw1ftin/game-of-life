@@ -1,0 +1,7 @@
+html { font-family: monospace; }
+table { border-collapse: collapse; }
+.center { height: 100%; width: 100%; display: flex; position: fixed; align-items: center; justify-content: center; }
+
+body { background:#000; color:#AAA; }
+a { color: #DDD }
+a:visited { color: #666 }

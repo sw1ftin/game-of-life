@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<body>
+
+    <!-- Just add this string to your page -->
+    <pre id="L"style="position:fixed;inset:0;margin:0;opacity:.2;pointer-events:none;font-size:8px;line-height:1;white-space:pre;overflow:hidden"></pre><script>const word='$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/|()1{}[]?-_+~i!lI;:,"^`';function u(){w=innerWidth/4|0,h=innerHeight/4|0,g=Array(h).fill().map(()=>Array(w).fill().map(()=>Math.random()<.5?word[Math.random()*word.length|0]:''))}let w,h,g;u();window.onresize=u;setInterval(()=>{g=g.map((r,i)=>r.map((c,j)=>{let n=[[-1,-1],[-1,0],[-1,1],[0,-1],[0,1],[1,-1],[1,0],[1,1]].reduce((t,[di,dj])=>t+(g[(i+di+h)%h][(j+dj+w)%w]?1:0),0);return n===3||c&&n===2?word[Math.random()*word.length|0]:''}));L.textContent=g.map(r=>r.map(c=>c||' ').join('')).join('\n')},100)</script>
+    <!-- You can change `word` to change symbols in background -->
+
+    <div class="center">
+    <div>
+        This is an example of using Game of Life background
+    <div>
+</div>
+
+</body>
+</html>
